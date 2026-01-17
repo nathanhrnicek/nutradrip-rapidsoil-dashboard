@@ -52,6 +52,17 @@ export default function UploadPage() {
           <button className="rounded-lg border px-4 py-2 text-sm">
             Upload
           </button>
+          <button
+  type="button"
+  className="rounded-lg border px-4 py-2 text-sm"
+  onClick={() => {
+    setFileName("");
+    setRows([]);
+  }}
+>
+  Clear
+</button>
+
         </div>
 
         <p className="mt-3 text-xs text-gray-500">
